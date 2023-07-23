@@ -10,7 +10,7 @@ The library is built into a .a file. To use it, you need to place vas_string.a a
 
 To build the library, simply type "make" in the terminal in the src folder of the project.
 
-The library passed automated tests at Sber's School of Programming 21 (School 42 analogue).
+The library passed automated tests at Sber's School of Programming 21 (School 42 analogue), auto-check (as well as my own tests) also included valgrind test, and no leaks were discovered.
 
 -----------------------------------------
 
@@ -24,4 +24,4 @@ The library passed automated tests at Sber's School of Programming 21 (School 42
 
 Для билда библиотеки достаточно написать make в терминале в папке src проекта.
 
-Библиотека прошла авто-тесты в Школе программирования 21 от Сбера (аналог Школы 42).
+Библиотека прошла авто-тесты в Школе программирования 21 от Сбера (аналог Школы 42), авто-проверка (как и мои личные тесты) включала в себя тест на valgrind и ликов не было обнаружено.
