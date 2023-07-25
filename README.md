@@ -10,6 +10,8 @@ The library is built into a .a file. To use it, you need to place vas_string.a a
 
 To build the library, simply type "make" in the terminal in the src folder of the project.
 
+The library has been tested and works on Linux, Mac, and WSL.
+
 The library passed automated tests at Sber's School of Programming 21 (School 42 analogue), auto-check (as well as my own tests) also included valgrind test, and no leaks were discovered.
 
 -----------------------------------------
@@ -23,5 +25,7 @@ The library passed automated tests at Sber's School of Programming 21 (School 42
 Библиотека билдится в .a файл. Для работы нужно поместить в папку проекта vas_string.а и vas_string.h, и можно пользоваться так же как оригинальной библиотекой, только функции иметь подпись "vas_"
 
 Для билда библиотеки достаточно написать make в терминале в папке src проекта.
+
+Библиотека протестирована и работает на Linux, Mac и WSL.
 
 Библиотека прошла авто-тесты в Школе программирования 21 от Сбера (аналог Школы 42), авто-проверка (как и мои личные тесты) включала в себя тест на valgrind и ликов не было обнаружено.
