@@ -2,7 +2,7 @@
 
 Here is an alternative to the original C string library and the sscanf and sprintf functions that was created from scratch by my team and me.
 
-My work on this project involved managing the team and dividing responsibilities, programming parts of the functions, and defining the overall structure of sprintf and sscanf (a method was devised through a loop: part of the string, specifier, parameter). I also wrote the original version of the gcvt function.
+My work on this project involved managing the team and dividing responsibilities, programming parts of the functions, and defining the overall structure of sprintf and sscanf (a method was devised through a loop: part of the string, specifier, parameter). I also wrote our own version of the gcvt function.
 
 Also, in this project I came up with interesting unit tests with combinations of parameters that can be supplied and take test cases from a file for convenience. My teammate wrote tests according to this scheme. To run the tests, you need to enter "make test" (you may need the "check" library for C). The tests cover all functions and have a very high coverage.
 
@@ -18,7 +18,7 @@ The library passed automated tests at Sber's School of Programming 21 (School 42
 
 Здесь написанная моей командой с нуля альтернатива оригинальной библиотеке string в C, а так же функций sscanf и sprintf.
 
-Моя работа в этом проекте заключалась в управлении командой и разделении обязанностей, а так же в программировании части функций и определении общей структуры sprintf, sscanf (придуман метод через цикл: часть строки, спецификатор, параметр). Так же мной была написана оригинальная версия функции gcvt.
+Моя работа в этом проекте заключалась в управлении командой и разделении обязанностей, а так же в программировании части функций и определении общей структуры sprintf, sscanf (придуман метод через цикл: часть строки, спецификатор, параметр). Так же мной была написана своя версия функции gcvt.
 
 Так же я придумал в этом проекте интересные юнит-тесты с комбинациями параметров которые могут подаваться, и берущие тест-кейсы из файла, для удобства. Тесты по этой схеме были написаны моим сокомандником. Для запуска тестов необходимо ввести make test (возможно понадобится библиотека check для С). Тесты покрывают все функции и имеют очень высокое покрытие.
 
